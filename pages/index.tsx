@@ -20,6 +20,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <MyLink href="/simple_scene/" text={"simple_scene"} />
+      <MyLink href="/simple_scene_with_grid/" text={"simple_scene_with_grid"} />
       <MyLink href="/simple_scene_with_axis/" text={"simple_scene_with_axis"} />
       <MyLink
         href="/simple_scene_with_light/"
@@ -28,6 +29,14 @@ const Home: NextPage = () => {
       <MyLink
         href="/simple_scene_with_animation/"
         text={"simple_scene_with_animation"}
+      />
+      <MyLink
+        href="/simple_scene_with_control/"
+        text={"simple_scene_with_control"}
+      />
+      <MyLink
+        href="/simple_scene_with_models/"
+        text={"simple_scene_with_model"}
       />
     </div>
   );
