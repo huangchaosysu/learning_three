@@ -1,4 +1,4 @@
-import { Canvas, MeshProps, useFrame } from "@react-three/fiber";
+import { Canvas, MeshProps, useFrame, useThree } from "@react-three/fiber";
 import styles from "../../styles/scene.module.css";
 import { useRef } from "react";
 

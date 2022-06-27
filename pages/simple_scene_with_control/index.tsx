@@ -8,7 +8,7 @@ const SimpleScene = () => {
       <Canvas camera={{ position: [0, 1, 5] }}>
         <mesh position={[0, 0.5, 0]}>
           <boxGeometry args={[1, 1, 1]} />
-          <meshPhongMaterial />
+          <meshBasicMaterial color={"cyan"} />
         </mesh>
         <gridHelper args={[20, 20]} />
         <OrbitControls />
