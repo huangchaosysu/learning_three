@@ -18,6 +18,7 @@ const SimpleScene = () => {
 const Box = () => {
   const boxRef = useRef<MeshProps | null>(null);
   useFrame(() => {
+    // useFrame需要在每个单独的组建内使用
     if (!boxRef.current) {
       return;
     }
