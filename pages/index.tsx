@@ -50,6 +50,10 @@ const Home: NextPage = () => {
         href="/simple_scene_with_loading/"
         text={"simple_scene_with_loading"}
       />
+      <MyLink
+        href="/simple_scene_with_model_animation/"
+        text={"simple_scene_with_model_animation"}
+      />
     </div>
   );
 };
