@@ -6,7 +6,7 @@ const SimpleScene = () => {
   return (
     <div className={styles.scene}>
       <Canvas shadows={true} camera={{ position: [0, 0, 5] }}>
-        <ambientLight intensity={0.4} color={"whi"} />
+        <ambientLight intensity={0.4} color={"white"} />
         <pointLight intensity={1} position={[0, 20, 0]} />
         <pointLight intensity={1} position={[10, 2, 0]} />
         <color attach={"background"} args={["#00abcf"]} />

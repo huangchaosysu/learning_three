@@ -38,6 +38,18 @@ const Home: NextPage = () => {
         href="/simple_scene_with_models/"
         text={"simple_scene_with_model"}
       />
+      <MyLink
+        href="/simple_scene_with_transform_control/"
+        text={"simple_scene_with_transform_control"}
+      />
+      <MyLink
+        href="/simple_scene_with_shader/"
+        text={"simple_scene_with_shader"}
+      />
+      <MyLink
+        href="/simple_scene_with_loading/"
+        text={"simple_scene_with_loading"}
+      />
     </div>
   );
 };
