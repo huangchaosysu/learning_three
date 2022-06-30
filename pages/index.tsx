@@ -54,6 +54,11 @@ const Home: NextPage = () => {
         href="/simple_scene_with_model_animation/"
         text={"simple_scene_with_model_animation"}
       />
+      <MyLink href="/simple_scene_instances/" text={"simple_scene_instances"} />
+      <MyLink
+        href="/simple_scene_move_object/"
+        text={"simple_scene_move_object"}
+      />
     </div>
   );
 };
